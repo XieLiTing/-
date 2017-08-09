@@ -1,0 +1,270 @@
+/*自定义默认样式*/
+html{
+    font-size: 62.5%;
+    color: #222;
+}
+::selection{
+    background-color: chocolate;
+    text-shadow: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+/*工具样式*/
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pull-right{
+    float:right;
+}
+.pull-lift{
+    float: left;
+}
+.text-right{
+    text-align: right !important;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.hide{
+    display:none ;
+}
+.show{
+    display: block;
+}
+.invisible{
+    visibility: hidden;
+}
+.text-hide{
+    font: 0/0 a;
+    color: cornflowerblue;
+    text-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+.clearfix:before
+.clearfix:after{
+    content:" ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+/*自定义页面样式*/
+body{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color:whitesmoke;
+    background-color: royalblue;
+}
+/*头部*/
+.logo{
+    margin-left:150px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+header{
+    width:100%;
+    height: 78px;
+}
+.center{
+    width:100% ;
+}
+
+.top{
+    width: 100%;
+    height:0.5rem;
+    background-color:royalblue;
+}
+.list1{
+    float: right;
+    padding: 0 4rem 0 0;
+    font-size: 1.3rem;
+}
+header nav ul {
+
+    text-align: right;
+}
+header nav ul li+li{
+    border-left: 1px solid #222222;
+    margin-left: -4px;
+}
+
+header nav ul li a{
+    display: inline-block;
+    padding: 3rem 2rem 0 2rem;
+    height: 42px;
+    width: 52px;
+}
+/*主要部分*/
+.center  {
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 390px;
+    display: block;
+    width: 1000px;
+    height:342px;
+    margin-left: 100px;
+    font-size: 1rem;
+    background-color: white;
+    clear: both;
+}
+.top2{
+    height:0.5rem;
+    background-color:royalblue;
+}
+.ar1{
+    float: left;
+    display: inline-block;
+    width: 265px;
+    height:342px;
+}
+.ar1 h2{
+    float: left;
+    display: inline-block;
+    /*margin: 0;*/
+}
+.aboutUs{
+    font-style: italic;
+    margin-left: 5px;
+    margin-top: 15px;
+    display: inline-block;
+    float: left;
+}
+.top3{
+    height: 1px;
+    background-color: bisque;
+    position: relative;
+    top:40px;
+}
+.s0{
+    display: block;
+    position: relative;
+    left: 218px;
+    top: 100px;
+}
+
+.ar2{
+    float: left;
+    display: inline-block;
+    width: 471px;
+    height:342px;
+}
+.biaoti li+li{
+    border-left: 1px solid #222222;
+    margin-left: -4px;
+}
+.biaoti li a{
+    display: inline-block;
+    padding: 0.8rem 2rem 1rem 2rem;
+    background-color: darkseagreen;
+}
+.top4{
+    height: 1px;
+    background-color: bisque;
+}
+.ar2 h3{
+    float: right;
+    margin-right: 190px;
+}
+.p2{
+    position: relative;
+    left: 161px;
+    bottom: 90px;
+}
+.s3{
+    position: relative;
+    left: 400px;
+    bottom: 70px;
+}
+.center1{
+    position: relative;
+    left: 5px;
+    bottom: 60px;
+}
+.ar3{
+    float: left;
+    display: inline-block;
+    width: 264px;
+    height:342px;
+
+}
+/*尾部*/
+footer{
+    margin-top: 268px;
+    display: block;
+    width:100% ;
+    font-size: 1rem;
+}
+.footer1{
+    width: 100%;
+    display: block;
+    line-height: 0.8rem;
+    background-color: royalblue;
+    color: white;
+}
+.p3{
+    display: inline-block;
+    margin-left: 250px;
+
+}
+
+.footer1_1{
+    display: inline-block;
+
+}
+.footer1_1 li+li{
+    border-left: 1px solid #222222;
+    margin-left: -4px;
+}
+.footer1_1 li a{
+    color: white;
+    display: inline-block;
+    padding: 1rem 1rem 0 1rem;
+}
+.footer2{
+     width: 100%;
+     display: block;
+     line-height: 0.8rem;
+ }
+
+.footer2_1{
+    display: inline-block;
+    margin-left: 150px;
+}
+.footer2_1 li+li{
+    border-left: 1px solid #222222;
+    margin-left: -4px;
+}
+.footer2_1 li a{
+    display: inline-block;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+.p4{
+
+    display: inline-block;
+    margin-left: 360px;
+
+}
+.p5{
+    margin-right: 200px;
+    float:right;
+    display: inline-block;
+
+}
