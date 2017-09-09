@@ -51,7 +51,7 @@ li{
     background-color: transparent;
     border: none;
 }
-.clearfix:before;
+.clearfix:before
 .clearfix:after{
     content:" ";
     display: table;
@@ -77,6 +77,8 @@ a:hover,a:active{
     margin-left:150px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width:180px;
+    height:54px;
 }
 header{
     width:100%;
@@ -160,7 +162,7 @@ header nav ul li a{
 }
 hr{
     position: relative;
-    left: 0px;
+    left: 0;
     bottom: 3px;
 }
 /*底部*/
